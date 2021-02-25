@@ -1,2 +1,2 @@
 # BOX-
-Repo:-> HACKTHEBOX and Some Script to automate tast for script-kiddies
+Repo:-> HACKTHEBOX and Some Script to automate tasks for script-kiddies
